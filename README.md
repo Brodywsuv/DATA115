@@ -22,9 +22,10 @@ Even with a simple dataset I initially ran into issues when I imported the data 
 
 This is a simple scatterplot showing the median home resale price in Clark County WA over the course of 5 years from 2016-2020 broken up by quarter. Visualizing this data shows there is definitley linear structure in the change of price over time.
 
-# Analysis 
+ Analysis 
 
 After constructing the scatterplot my suspicions were confirmed and exceeded. I expected to see a rise in price but not as dramatic as is shown in the graph, I was also not expeacting it to be as linear as it is. So I decided not to let that structure go to waste and constructed a regression model. I used the "Date" as the predicting variable (though there is nothing intrinsic about the date that predicts the price) so I could get a rate of change in the form of a coefficient. I got a coefficient of 26462 and an intercept of -53059448. I decided to test how accurate this model is on some of the data from years not in my table. We can use Quarter 3 of 2014 as an example.
 ---
 (2014.50 * 26462) - 53059448 = 248,251
 ---
+
