@@ -1,6 +1,8 @@
 # DATA115 - Housing Prices
 Personal Dataset
 
+# How has the price of homes in Clark County changed over recent years? 
+
 So far I have been able to aquire some valuable surface level information such as median home prices over time in Clark County.
 
 <img src="https://raw.githubusercontent.com/Brodywsuv/DATA115/main/HP.png" >
